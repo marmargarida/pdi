@@ -146,7 +146,7 @@ knitr::include_graphics(rep('imagens/01-introducao/segmentacao.png'))
 	
     Essa etapa examina as informações produzidas na etapa anterior e classifica cada objeto como sendo de interesse ou não, atribuindo significado ao conjunto de objetos reconhecidos pelos rótulos [@pedrini2008, p. 3]. Uma aplicação de análise de imagens inclui a classificação de áreas em uma imagem multiespectral como na Figura \@ref(fig:analise). Neste exemplo utilizou-se o método bayesiano, em que cada pixel da imagem foi avaliado em relação a três classes (água, desenvolvimento urbano e vegetação). Nas Figuras \@ref(fig:analise), pontos pretos representam pontos classificados incorretamente, enquanto pontos brancos foram classificados corretamente [@gonzalez2010, p. 579].
 
-(ref:analise) Classificação bayesiana em uma imagem multiespectral. Resultado (em branco) da classificação na classe água, desenvolvimento urbano e vegetação, da esquerda para a direita [@gonzalez2010, p. 579].
+(ref:analise) Classificação bayesiana em uma imagem multiespectral. Resultado (em branco) da classificação na classe água, desenvolvimento urbano e vegetação, da esquerda para a direita [@gonzalez2010, p. 579]...
 
 ```{r analise, echo= FALSE,fig.asp=.6, fig.width= 4, fig.cap='(ref:analise)', fig.align='center', out.width='60%'}
 knitr::include_graphics(rep('imagens/01-introducao/analise.png'))
